@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  /* height: 100vh;
+  width: 100vw; */
+}
+.SearchBox2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+.field {
+  width: 100%;
+  margin-top: 30px;
+  padding: 0 5px 0 5px;
+  border: 1px solid #ddd;
+  border-radius: 40px;
+}
+.field input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 16px;
+  padding: 10px;
+}
+.search {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.search svg {
+  height: 22px;
+  width: 22px;
+  background: #4834d4;
+  border-radius: 50%;
+  margin: 0 10px 0 25px;
+}
+
+.hidden {
+  opacity: 0;
+}
+.invalid_input {
+  border: 1px solid red;
+}
+  
